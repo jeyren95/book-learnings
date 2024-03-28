@@ -1,9 +1,8 @@
-# Chapter 2 - A Pragmatic Approach
-## 7. The Evils of Duplication
-### DRY Principle - Don't repeat yourself
+# 7. The Evils of Duplication
+## DRY Principle - Don't repeat yourself
 - every piece of knowledge should have a single representation within the system
 
-#### Preventing duplication
+## Preventing duplication
 1. Multiple representations of information
 - e.g. a class whose attributes mirrors the schema in the DB
 - use a filter or code generator whereby the class is automatically generated from the DB schema
@@ -22,4 +21,4 @@
 - can lead to such functionality being implemented many times
 - active communication should be facilitated between developers
 
-## 8. Orthogonality
+# 8. Orthogonality
