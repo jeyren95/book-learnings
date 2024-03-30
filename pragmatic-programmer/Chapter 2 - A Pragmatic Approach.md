@@ -79,4 +79,29 @@ Prototyping
 - throw away whatever you used to try out the concept, and recode it properly using lessons learnt
 - generates disposable code
 
+# 13. Estimating
+## Building an estimate
+1. Do they need high accuracy, or a ballpark figure?
+
+2. Is there anyone that has been in a similar experience?
+
+3. Build a model of the system
+- for an estimate of response time, the model could include server + traffic
+- for a project deadline, the model could include the steps taken for development + how the system is being implemented
+
+4. Break down the model into components, assigning parameters to each component
+- work out which parameters will have the most impact on the result
+
+5. Calculate the answers (spreadsheets can be of a big help)
+- run multiple calculations, which multiple variations of the parameters
+
+## Recommended units for estimation
+- 1 to 15 days = days
+- 3 to 8 weeks = weeks
+- 8 - 30 weeks = months
+
+## Rule of thumb
+- always reply with "I'll get back to you"
+
+
 
