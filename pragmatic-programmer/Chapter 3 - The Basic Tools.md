@@ -28,5 +28,30 @@
 3. Rubber ducking
 - process of explaining the bug to someone else
 
+# 20. Code generators
+## Passive
+- parameterized templates that generate a given output from a set of inputs
+- helps to save typing
+
+### Use cases
+1. Create new source files
+- e.g. producing templates, standard comment blocks etc
+
+2. Performing one-off conversions among programming languages
+
+3. Produce lookup tables and other resources that are expensive to compute at run time
+
+## Active
+- helps to follow the DRY principle
+
+## Use cases
+1. Generating struct code from the DB schema used
+
+2. Communicating between different programming languages used in the same application
+- each code base requires some info in common (e.g. data structures, message formats, field names etc)
+- express such info in a language-neutral representation (e.g. JSON, XML), and generate the code for both languages 
+
+
+
 
 
