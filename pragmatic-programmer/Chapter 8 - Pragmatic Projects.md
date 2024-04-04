@@ -47,3 +47,13 @@
 ## Rule of thumb
 - if a bug exists, make sure to write tests to account for it
 
+# 44. It's All Writing
+- 2 types of documentation
+  - internal documentation (e.g. code in comments, design and test documents)
+  - external documentation (e.g. user manuals)
+
+## Comments in code
+- should discuss why something is done, its purpose, and goal
+- should describe how the function is being used, and anything else that may not be obvious to developers
+- the code itself already shows how its done, so describing the steps of the function would violate the DRY principle
+
